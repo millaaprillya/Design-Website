@@ -46,7 +46,7 @@
           <p class="text-muted">Get now free 50% discount for alll products on your first order</p>
         <div class="input-group-prepend">
            <input type="text" class="form-control email" id="validationTooltipUsername" placeholder="Your Email Address" aria-describedby="validationTooltipUsernamePrepend" required>
-          <span class="input-group-text send" id="validationTooltipUsernamePrepend" style=" background: #8BAC3E; border-style: none; color: #FFFFFF; font-size: 14px;">SEND</span>
+          <span class="input-group-text send" id="validationTooltipUsernamePrepend" style=" background: #8BAC3E; border-style: none; color: #FFFFFF; font-size: 14px;   ">SEND</span>
         </div>
         <div>
       <ul  class="nav flex-column " style="padding-top:20px;">
@@ -59,8 +59,8 @@
     </div>
 
   </footer>
-    <div class="d-flex justify-content-between py-4 my-4 ">
-      <center>&copy; 2021 Company, Inc. All rights reserved.</center>
+    <div class=" mx-auto d-block d-flex justify-content-between py-4 my-4 ">
+      <p class ="text-mute jj " style="margin-left:400px">© 2021 Elemes id. All rights reserved</p>
     </div>
 </div>
 </template>

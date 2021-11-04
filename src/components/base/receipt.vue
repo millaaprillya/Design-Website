@@ -164,5 +164,46 @@ margin:10px;
 .hide{
     display:none !important;
 }
+
+}
+@media screen and (max-width: 604px) {
+    .receipt{
+    margin-top:150%;
+}
+.title-receipt{
+margin:20px;
+font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 50px;
+color: #333333;
+}
+.title1-receipt{
+margin:20px;
+font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 50px;
+color:#8BAC3E;
+}
+.card{
+transition: transform 0.2s ease;
+box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+border-radius: 0;
+border: 0;
+margin-bottom: 1.5em;
+margin-left:20px;
+border-radius: 100%;
+margin:10px;
+
+}
+.one{
+    margin:150px;
+}
+.hide{
+    display:none !important;
+}
 }
 </style>

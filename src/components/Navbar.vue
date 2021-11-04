@@ -54,4 +54,21 @@ line-height: 22px;
   position: relative;
 }
 }
+@media screen and (max-width: 604px) {
+  #nv-l{
+ display: none !important;
+}
+#img-logo{
+  height:50%;
+  width:50%;
+ padding-right:30px;
+}
+#rl{
+    margin-left:0px;
+   display: none !important;
+}
+#rl2{
+  position: relative;
+}
+}
 </style>

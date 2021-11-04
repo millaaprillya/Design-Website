@@ -45,9 +45,7 @@
     <!-- Trending -->
     <Trending/>
     <!-- Footer -->
-    <div class="footer">
      <Footer/>
-    </div>
   </div>
   </div>
 </main>
@@ -187,6 +185,40 @@ height: 93px;
     position: absolute;
 }
 @media screen and (max-width: 414px) {
+ .title{
+font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 64px;
+/* or 100% */
+
+color: #8BAC3E;
+
+}
+.title-p{
+  position: absolute;
+  margin-top:100%;
+}
+.m-po1{
+  position:absolute;
+  margin-top:10px;
+
+}
+#as{
+  display: none !important;
+}
+#m-po2{
+  display: none !important;
+  /* margin-top:0% !important;
+  display:absolute;
+  z-index:1; */
+}
+.footer{
+  display: none !important;
+}
+}
+@media screen and (max-width: 604px) {
  .title{
 font-family: Rubik;
 font-style: normal;

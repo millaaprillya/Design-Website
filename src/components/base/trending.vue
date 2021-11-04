@@ -202,4 +202,9 @@ color: #8BAC3E;
     margin:15%;
   }
   }
+    @media screen and (max-width: 604px) {
+.card-trending{
+    margin:15%;
+  }
+  }
 </style>
