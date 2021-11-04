@@ -46,7 +46,7 @@
           <p class="text-muted">Get now free 50% discount for alll products on your first order</p>
         <div class="input-group-prepend">
            <input type="text" class="form-control email" id="validationTooltipUsername" placeholder="Your Email Address" aria-describedby="validationTooltipUsernamePrepend" required>
-          <span class="input-group-text send" id="validationTooltipUsernamePrepend">SEND</span>
+          <span class="input-group-text send" id="validationTooltipUsernamePrepend" style=" background: #8BAC3E; border-style: none; color: #FFFFFF; font-size: 14px;">SEND</span>
         </div>
         <div>
       <ul  class="nav flex-column " style="padding-top:20px;">

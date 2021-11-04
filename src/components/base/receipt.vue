@@ -41,11 +41,18 @@
         </div>
         </div>
         </div>
+        <div style="padding-left:900px;">
+            <div class="row ">
+           <b-button pill variant="success" style="margin:2px; background: #8BAC3E; border-style: none;">
+            <img src="../../assets/left.png" class="img-1" style=" background: #F8F8F8;">
+               PREV</b-button>
+           <b-button pill variant="success" style="margin:2px; background: #8BAC3E; border-style: none;">
+                <img src="../../assets/right.png" class="img-1" style=" background: #F8F8F8;" alt="">
+               NEXT</b-button>
+        </div>
+        </div>
 </div>
 </template>
-<script>
-</script>
-
 <style>
 .card:hover {
 transform: scale(1.1);
@@ -59,6 +66,33 @@ margin-bottom: 1.5em;
 margin-left:20px;
 border-radius: 100%;
 margin-bottom:2%;
+}
+.buttons-receipt{
+width: 113px;
+height: 50px;
+left: 1068px;
+top: 1059px;
+
+/* Primary */
+
+background: #8BAC3E;
+border-radius: 100px;
+}
+.img-1{
+width: 33px;
+height: 33px;
+left: 1081px;
+top: 1068px;
+border-radius: 100px;
+}
+.btn-glyphicon {
+    padding:8px;
+    background:#ffffff;
+    margin-right:4px;
+}
+.icon-btn {
+    padding: 1px 15px 3px 2px;
+    border-radius:50px;
 }
 .card-title {
 font-family: Rubik;

@@ -9,7 +9,7 @@
           <h1 class="title">Good Food Us</h1>
           <h1 class="title"> Good Mood</h1>
           <p class="title-p">I would think that conserving our natural resources should be a conservative position: Not to waste food, and not to throw away a lot of the food that we buy.</p>
-           <b-button pill variant="success">Daftar Sekarang</b-button>
+           <b-button pill variant="success" style=" background: #8BAC3E; border-style: none;">Daftar Sekarang</b-button>
            <b-button pill variant="light" style="margin-left:3%">About Us</b-button>
         </div>
     </div>

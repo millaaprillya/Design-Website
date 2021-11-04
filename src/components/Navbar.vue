@@ -15,8 +15,8 @@
 
     <ul class="nav col-md-3 justify-content-end">
 
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Masuk</a></li>
-      <li class="nav-item ml-2"> <b-button pill variant="success">Daftar Sekarang</b-button></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted" >Masuk</a></li>
+      <li class="nav-item ml-2"> <b-button pill variant="success" style =" background: #8BAC3E; border-style: none;">Daftar Sekarang</b-button></li>
     </ul>
   </navbar>
 </div>

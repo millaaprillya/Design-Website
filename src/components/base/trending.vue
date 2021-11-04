@@ -115,11 +115,40 @@
                </div>
          </div>
         </div>
+              <div class="mx-auto " style="padding-top:50px;">
+                    <button type="button" class="buttons1"><p class="tx">ALL Receipt</p></button>
+              </div>
               </div>
         </div>
 </template>
 
 <style scoped>
+.buttons1{
+width: 160px;
+height: 50px;
+left: 640px;
+top: 2088px;
+
+/* Primary */
+
+background: #8BAC3E;
+border-radius: 100px;
+border-style: none;
+}
+.tx{
+    padding:10px;
+font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
 .card-bodyt{
 margin-bottom:40px;
 }
