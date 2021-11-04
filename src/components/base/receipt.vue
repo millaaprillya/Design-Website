@@ -4,7 +4,7 @@
           <h6 class="title-receipt">Browser Our Category</h6>
           <h6 class="title1-receipt">Receipt</h6>
         </div>
-        <div class="row" style="margin-top:20px">
+        <div class="row " style="margin-top:20px">
         <div class="card " style="width: 13rem; height:10rem; background-color:rgba(240, 254, 235, 1)">
             <div class="card-body">
                   <img src="../../assets/cake.png" class=" mx-auto  d-block " style="padding: 1px "/>
@@ -42,7 +42,7 @@
         </div>
         </div>
         <div style="padding-left:900px;">
-            <div class="row ">
+            <div class="row hide">
            <b-button pill variant="success" style="margin:2px; background: #8BAC3E; border-style: none;">
             <img src="../../assets/left.png" class="img-1" style=" background: #F8F8F8;">
                PREV</b-button>
@@ -124,5 +124,45 @@ font-weight: 500;
 font-size: 38px;
 line-height: 50px;
 color:#8BAC3E;
+}
+@media screen and (max-width: 414px) {
+.receipt{
+    margin-top:150%;
+}
+.title-receipt{
+margin:20px;
+font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 50px;
+color: #333333;
+}
+.title1-receipt{
+margin:20px;
+font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 50px;
+color:#8BAC3E;
+}
+.card{
+transition: transform 0.2s ease;
+box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+border-radius: 0;
+border: 0;
+margin-bottom: 1.5em;
+margin-left:20px;
+border-radius: 100%;
+margin:10px;
+
+}
+.one{
+    margin:150px;
+}
+.hide{
+    display:none !important;
+}
 }
 </style>

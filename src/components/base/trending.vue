@@ -197,4 +197,9 @@ line-height: 21px;
 
 color: #8BAC3E;
 }
+  @media screen and (max-width: 414px) {
+.card-trending{
+    margin:15%;
+  }
+  }
 </style>
