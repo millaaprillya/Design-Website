@@ -15,20 +15,29 @@
     </div>
 
     <div class="col-md-6 mx-auto d-block"  style="padding-buttom: 40px ">
-    <div>
-        <div class="mx-auto d-block pmk">
+    <div id="m-po">
+        <div id="m-po1" class="mx-auto d-block pmk">
         <img src="../assets/makanan.png" class=" mx-auto d-block border-circle" style="padding: 40px "/>
-        <div class=" align-items-end p-box" style="margin-bottom:30% ">
+        </div>
+        <div id ="m-po2" class=" align-items-end p-box" style="margin-bottom:30% ">
           <div class="row">
         <div class="col-2 mx-auto">
-        <img src="../assets/makanan.png" class=" d-block img"/>
+        <img src="../assets/makanan.png" style="padding: 9px " class=" d-block img"/>
          </div>
-           <div class="col-10">
-         <center><h6>adnai</h6></center>
+           <div class="col-10 " style="padding-left:50px">
+           <div style="padding:5px">
+            <h5 id="title-right" >Green Salad Tomato</h5>
+            <h6 class="card-subtitle mb-2  text-muted">Tomato</h6>
+            <div class="row ml-1">
+            <img src="../assets/rating.png" alt="">
+            <img src="../assets/rating.png" alt="">
+            <img src="../assets/rating.png" alt="">
+            <img src="../assets/rating.png" alt="">
+            </div>
+           </div>
           </div>
          </div>
     </div>
-        </div>
     </div>
     </div>
     <!-- receipt -->
@@ -62,6 +71,7 @@ export default {
 </script>
 
 <style>
+
 .img{
 width: 300%;
 height: 100%;
@@ -78,6 +88,24 @@ position: absolute;
 background-color: #757575;
 width: 50%;
 top:90%;
+}
+#title-right{
+margin-top:10px;
+width: 144px;
+height: 29px;
+left: 796px;
+top: 515px;
+
+/* Heading/H7-Xxsmall */
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 22px;
+/* or 157% */
+
+color: #000000;
 }
 .title{
 font-family: Rubik;
@@ -116,5 +144,44 @@ z-index: 1;
 .uk-gm{
 width: 50px;
 height: 70px;
+}
+#m-po1{
+    z-index: 1;
+}
+#m-po2{
+background: rgba(255, 255, 255, 0.74);
+box-shadow: 0px 11px 39px rgba(0, 0, 0, 0.07);
+backdrop-filter: blur(60px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 17px;
+top: 370px;
+z-index: 2;
+width: 292px;
+height: 93px;
+}
+#boxtiga{
+    width: 175px;
+    left: 75px;
+    top: 100px;
+    background-color:blue;
+    z-index: 3;
+}
+#boxempat{
+    width: 100px;
+    left: 200px;
+    top: 50px;
+    background-color:grey;
+    z-index: 2;
+}
+#boxlima{
+    width: 100px;
+    left: 250px;
+    top: 0px;
+    background-color:cyan;
+    z-index: 1;
+}
+#m-po{
+    position: absolute;
 }
 </style>
