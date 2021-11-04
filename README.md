@@ -1,6 +1,6 @@
 #Website
  <p align="center">
-    <a href="https://CoffeShopku.netlify.app/">View Demo</a>
+    <a href="https://lucid-elion-6777f2.netlify.app/">View Demo</a>
   .
       <a href="https://github.com/millaaprillya/CoffeShopKu-Vue.js/issues">Report Bug</a>
     ·
