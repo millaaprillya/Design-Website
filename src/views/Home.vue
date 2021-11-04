@@ -35,6 +35,8 @@
     <Receipt/>
     <!-- Trending -->
     <Trending/>
+    <!-- Footer -->
+     <Footer/>
   </div>
   </div>
 </main>
@@ -46,12 +48,15 @@
 import Navbar from '../components/Navbar.vue'
 import Receipt from '../components/base/receipt.vue'
 import Trending from '../components/base/trending.vue'
+import Footer from '../components/Footer.vue'
+
 export default {
   name: 'Home',
   components: {
     Navbar,
     Receipt,
-    Trending
+    Trending,
+    Footer
   }
 }
 </script>
